@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+인프런의 "[리액트 2부] 고급 주제와 훅" 라는 강의에 대한 샘플 코드임.
+
+https://www.inflearn.com/course/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B3%A0%EA%B8%89%EC%A3%BC%EC%A0%9C%EC%99%80-%ED%9B%85-2%EB%B6%80/dashboard
+
+
+강의 자료 위치
+https://github.com/jeonghwan-kim/lecture-react-season2
 
 ## Getting Started
 
