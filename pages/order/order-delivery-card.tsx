@@ -1,3 +1,4 @@
+"use client"
 import Card from "@/components/card"
 import { Order } from "@/shared/api/data"
 

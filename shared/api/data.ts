@@ -34,9 +34,10 @@ export interface Order {
   deliveryContact: string;
   messageToShop: string;
   messageToRider: string;
+  position: number[];
 }
 
-export const defaultOrder = {
+export const defaultOrder: Order = {
   id: generateId(),
   orderDate: generateDate(),
   status: "배달을 완료했어요",
@@ -52,6 +53,7 @@ export const defaultOrder = {
   deliveryContact: "010-1111-2222",
   messageToShop: "포크는 주지 마세요",
   messageToRider: "안전하게 오세요",
+  position: [60, 60],
 };
 
 export interface Product {
@@ -64,31 +66,31 @@ export interface Product {
 export const data = {
   products: [
     {
-      id: generateId(),
+      id: '1',
       name: "해물 계란 라면",
       price: 6000,
       thumbnail: "/images/menu-해물계란라면.jpg",
     },
     {
-      id: generateId(),
+      id: '2',
       name: "햄 야채 토스트",
       price: 8000,
       thumbnail: "/images/menu-햄야채토스트.jpg",
     },
     {
-      id: generateId(),
+      id: '3',
       name: "프레시 케밥",
       price: 8000,
       thumbnail: "/images/menu-프레시케밥.jpg",
     },
     {
-      id: generateId(),
+      id: '4',
       name: "부드러운 치즈 버거",
       price: 15000,
       thumbnail: "/images/menu-부드러운치즈버거.jpg",
     },
     {
-      id: generateId(),
+      id: '5',
       name: "매운 푸팟퐁 커리",
       price: 20000,
       thumbnail: "/images/menu-매운푸팟퐁커리.jpg",
